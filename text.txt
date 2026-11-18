@@ -1,0 +1,36 @@
+Namun, tembok pemisah itu mulai runtuh seiring menggelindingnya tiga gelombang besar: IoT, 
+perangkat bergerak, dan komputasi awan (Muzakkty dkk., 2024). ARM, yang dulu hanya dianggap 
+sebagai "otak" ponsel pintar, kini berani menyerbu pusat data skala besar. Keunggulannya ada pada 
+efisiensi daya, dan strategi ini terbukti manjur Apple Silicon di komputer konsumen maupun prosesor 
+AWS Graviton di data center raksasa sama-sama memanfaatkan arsitektur RISC (Wang dkk., 2024). Di 
+saat yang sama, RISC-V muncul sebagai pendatang baru yang menarik. Arsitektur ini bersifat terbuka, 
+modular, dan bebas royalti (Chakravarthi & Koteshwar, 2025). Konsep non-proprieter-nya 
+memungkinkan pengembang lepas dari kendali lisensi Intel di satu sisi, maupun skema IP milik ARM di 
+sisi lain (Muzakkty dkk., 2025). 
+Perubahan di tingkat industri ini otomatis mendorong lahirnya berbagai penelitian baru yang 
+menguji ulang mana yang lebih unggul. Rosdiyanto dkk. (2025), misalnya, menegaskan bahwa RISC 
+tetap menjadi yang terdepan dalam hemat daya untuk sistem tertanam modern. Di ranah pusat data, 
+Simili dkk. (2024) dan Loghin (2024) secara terpisah menunjukkan bahwa server ARM mampu 
+memangkas konsumsi energi saat menangani basis data tanpa mengorbankan kinerja. Dari sisi 
+pengembangan perangkat keras, simulasi berbasis FPGA membuktikan bahwa pipelining 5-tahap serta 
+unit ekstensi vektor di RISC-V bisa diandalkan untuk perhitungan rumit (Lalu, 2024; Imianosky dkk., 
+2024). Bahkan ada upaya memakai model bahasa untuk menerjemahkan kode assembly dari CISC ke 
+RISC secara otomatis (Heakl dkk., 2024), meskipun pendekatan ini masih menyimpan risiko berupa 
+pembengkakan jumlah instruksi yang justru bisa memperlambat eksekusi (Xie dkk., 2024). 
+Meski kaya akan data, literatur yang ada masih menyisakan beberapa titik buta. Banyak 
+penelitian yang memilih fokus pada satu aspek saja misalnya efisiensi daya di cloud, atau detail 
+mikroarsitektur, tapi jarang yang menyatukan performa, termal, dan fleksibilitas perangkat lunak dalam 
+satu bingkai analisis. Komparasi tiga arsitektur sekaligus x86, ARM, dan RISC-V dalam satu kerangka 
+kerja juga masih terbilang langka (Ali, 2023). Tak hanya itu, sebagian besar bukti empiris yang tersedia 
+berasal dari studi kasus di luar negeri. Padahal, pertanyaan tentang sejauh mana teknologi ini bisa 
+diadopsi untuk memperkuat ekosistem digital Indonesia dan apa implikasinya terhadap kedaulatan 
+teknologi nasional masih nyaris tak tersentuh. 
+Untuk menjawab celah-celah itulah penelitian ini diangkat. Metode yang dipakai adalah studi 
+literatur sistematis yang mencakup publikasi ilmiah periode 2021–2026. Yang membedakan tulisan ini 
+dari yang lain: pembahasan multi-aspek secara terpadu (kinerja, konsumsi daya, kompleksitas instruksi, 
+dan prospek ke depan), komparasi langsung tiga arsitektur, dan analisis dampaknya terhadap Indonesia. 
+Tujuan spesifiknya ada tiga: membandingkan performa dan efisiensi energi RISC vs CISC di sistem 
+modern, mengurai alasan di balik suksesnya ARM merambah cloud, serta menilai kesiapan ekosistem 
+RISC-V sebagai arsitektur terbuka masa depan. Dengan begitu, tulisan ini diharapkan bisa memberi 
+gambaran utuh kepada praktisi, akademisi, dan para pengambil kebijakan di Tanah Air—sebagai bahan 
+pertimbangan dalam menentukan strategi adopsi teknologi ke depan. 
