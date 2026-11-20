@@ -9,7 +9,7 @@ def repeat(numlist: list, curr_index: int = 0):
 with open('text.txt') as f:
   text = f.read()
 
-hierarchy = [r"\.\s*\n", r'(?<!\()\.(?!\))']
+hierarchy = [r"\.\s*\n", r'\.(?![^()]*\))']
 def recursive_chunk(whole: str, hierarchy: list, index=0):
   done_chunks = []
   if index < len(hierarchy):
